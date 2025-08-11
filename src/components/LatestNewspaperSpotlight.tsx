@@ -22,15 +22,14 @@ export default function LatestNewspaperSpotlight() {
           <p>
             <strong>Investment Insight:</strong> How heritage zoning boosts long-term capital growth.
           </p>
-          <Link href="/newspaper/latest.pdf">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block mt-6 px-6 py-3 bg-[#FFD166] text-[#4B2E2E] font-semibold rounded shadow hover:bg-yellow-500 transition"
-            >
-              Read Now
-            </a>
-          </Link>
+          <a
+            href="/newspaper/latest.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-6 px-6 py-3 bg-[#FFD166] text-[#4B2E2E] font-semibold rounded shadow hover:bg-yellow-500 transition"
+          >
+            Read Now
+          </a>
         </div>
       </div>
     </section>

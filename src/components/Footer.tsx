@@ -5,11 +5,11 @@ export default function Footer() {
     <footer className="bg-[#4B2E2E] text-[#FFD166] py-8">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
         <nav className="mb-6 md:mb-0 space-x-6 font-semibold">
-          <Link href="/"><a className="hover:text-white">Home</a></Link>
-          <Link href="/listings"><a className="hover:text-white">Listings</a></Link>
-          <Link href="/newspaper"><a className="hover:text-white">Newspaper</a></Link>
-          <Link href="/insights"><a className="hover:text-white">Insights</a></Link>
-          <Link href="/contact"><a className="hover:text-white">Contact</a></Link>
+          <Link href="/" className="hover:text-white">Home</Link>
+          <Link href="/listings" className="hover:text-white">Listings</Link>
+          <Link href="/newspaper" className="hover:text-white">Newspaper</Link>
+          <Link href="/insights" className="hover:text-white">Insights</Link>
+          <Link href="/contact" className="hover:text-white">Contact</Link>
         </nav>
         <div className="space-x-6 text-2xl">
           <a href="https://wa.me/yourwhatsapp" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer" className="hover:text-white">

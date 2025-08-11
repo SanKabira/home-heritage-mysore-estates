@@ -20,10 +20,8 @@ export default function MarketInsights() {
             Our Insights Team combines heritage market data with modern analytics to guide buyers and investors. 
             From price trajectories to zoning updates, our weekly reports keep you ahead.
           </p>
-          <Link href="/insights">
-            <a className="inline-block mt-6 px-6 py-3 bg-[#FFD166] text-[#4B2E2E] font-semibold rounded shadow hover:bg-yellow-500 transition">
-              View Full Insights
-            </a>
+          <Link href="/insights" className="inline-block mt-6 px-6 py-3 bg-[#FFD166] text-[#4B2E2E] font-semibold rounded shadow hover:bg-yellow-500 transition">
+            View Full Insights
           </Link>
         </div>
       </div>

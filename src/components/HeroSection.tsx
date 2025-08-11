@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 export default function HeroSection() {
   return (
     <section
@@ -14,16 +12,12 @@ export default function HeroSection() {
           Exclusive heritage properties, weekly insights, and investment opportunities.
         </p>
         <div className="flex space-x-4">
-          <Link href="#listings">
-            <a className="bg-[#FFD166] text-[#4B2E2E] font-semibold px-6 py-3 rounded shadow hover:bg-yellow-500 transition">
-              Browse Estates
-            </a>
-          </Link>
-          <Link href="/newspaper/latest.pdf" target="_blank" rel="noopener noreferrer">
-            <a className="border border-[#FFD166] text-[#FFD166] px-6 py-3 rounded hover:bg-[#FFD166] hover:text-[#4B2E2E] transition">
-              Read Latest Newspaper
-            </a>
-          </Link>
+          <a href="#listings" className="bg-[#FFD166] text-[#4B2E2E] font-semibold px-6 py-3 rounded shadow hover:bg-yellow-500 transition">
+            Browse Estates
+          </a>
+          <a href="/newspaper/latest.pdf" target="_blank" rel="noopener noreferrer" className="border border-[#FFD166] text-[#FFD166] px-6 py-3 rounded hover:bg-[#FFD166] hover:text-[#4B2E2E] transition">
+            Read Latest Newspaper
+          </a>
         </div>
       </div>
     </section>
