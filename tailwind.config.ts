@@ -11,8 +11,8 @@ const config: Config = {
         white: '#FFFFFF',
       },
       fontFamily: {
-        serif: ['Playfair Display', 'serif'],
-        sans: ['Lato', 'sans-serif'],
+        serif: ['var(--font-playfair)', 'serif'],
+        sans: ['var(--font-lato)', 'sans-serif'],
       },
     },
   },
