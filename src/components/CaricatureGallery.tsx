@@ -4,9 +4,9 @@ type Caricature = {
 }
 
 const caricatures: Caricature[] = [
-  { src: '/caricatures/caricature1.jpg', alt: 'Caricature 1' },
-  { src: '/caricatures/caricature2.jpg', alt: 'Caricature 2' },
-  { src: '/caricatures/caricature3.jpg', alt: 'Caricature 3' },
+  { src: '/images/caricature1.jpg', alt: 'Caricature 1' },
+  { src: '/images/caricature2.jpg', alt: 'Caricature 2' },
+  { src: '/images/caricature3.jpg', alt: 'Caricature 3' },
 ]
 
 export default function CaricatureGallery() {
